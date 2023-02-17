@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * My first c program
+ * main - entering point
+ *return : always 0
  */
 int main(void)
 {
