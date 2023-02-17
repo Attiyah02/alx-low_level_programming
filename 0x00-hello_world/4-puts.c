@@ -1,9 +1,11 @@
 #include <stdio.h>
+
 /**
- *main - entering point
+ * main - entering point
  *
- *return: always 0(Succesful)
+ * Return: always 0(Succesful)
  */
+
 int main(void)
 {
 	puts("\"Programmiing is like building a multilingual puzzle");
