@@ -7,7 +7,9 @@
  *
  * Return: 0(Succesful)
  */
+
 int main(void)
+
 {
 	int n;
 
@@ -24,6 +26,7 @@ int main(void)
 	}
 	else( n == 0)
 	{
-		printf("%d is zero"; n);
+		printf("%d is zero", n);
+	}
 	return (0);
 }
