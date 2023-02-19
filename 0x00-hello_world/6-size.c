@@ -4,7 +4,6 @@
  * main - entering point
  *
  * Return: 0(Succesful)
- *
  */
 
 int main(void)
