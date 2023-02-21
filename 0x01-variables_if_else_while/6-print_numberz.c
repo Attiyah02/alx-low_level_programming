@@ -11,6 +11,7 @@
 int main(void)
 {
 	int end_at_nine;
+
 	for (end_at_nine = '0'; end_at_nine <= '9'; end_at_nine++)
 	{
 		putchar(end_at_nine);
