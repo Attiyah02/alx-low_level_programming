@@ -12,10 +12,10 @@ int main(void)
 {
 	int digits;
 
-	for (digits = 0; digits < 10; digits++)
+	for (digits = '0'; digits <= '9'; digits++)
 	{
-		printf("%d", digits);
+		putchar(digits);
 	}
-	printf("/n");
+	putchar('\n');
 	return (0);
 }
