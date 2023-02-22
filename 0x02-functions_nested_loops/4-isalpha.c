@@ -3,10 +3,10 @@
 /**
  * _isalpha -checks for alphabetic character
  * @c: character being checked
- * Return: 1 if c is a letter, else 0
+ * Return: 1 if r is a letter, else 0
  */
 
 int _isalpha(int r)
 {
-	return((r >= 'a' && r <= 'z') || (r >= 'A' && r <= 'Z'));
+	return ((r >= 'a' && r <= 'z') || (r >= 'A' && r <= 'Z'));
 }
