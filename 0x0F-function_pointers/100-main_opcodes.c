@@ -34,13 +34,12 @@ int main(int argc, char *argv[])
 		opcode = *(unsigned char *)address;
 		printf("%.2x", opcode);
 
-		if(i == b - 1)
+		if (i == b - 1)
 			continue;
 		printf(" ");
 
 		address++;
 	}
-	
 	printf("\n");
 
 	return (0);
