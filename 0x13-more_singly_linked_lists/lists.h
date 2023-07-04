@@ -4,18 +4,18 @@
 #include <stdlib.h>
 
 /**
- * struct linked_ls - singly linked lists
- * @l: integer
- * @nxt: next node
+ * struct listint_s - singly linked lists
+ * @n: integer
+ * @next: next node
  *
- * Descriptiong: structure for tasks
+ * Description: structure for tasks
  */
 
-typedef struct linked_ls
+typedef struct listint_s
 {
-	int l;
-	struct linked_ls *nxt;
-} linked_ls;
+	int n;
+	struct listint_s *next;
+} listint_t;
 
 size_t print_listint(const listint_t *h);
 size_t listint_len(const listint_t *h);
